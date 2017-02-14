@@ -1,9 +1,25 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 h1,h2,h3{
 	font-family: 'Montserrat', sans-serif;
 }
 
 p{
 	font-family: 'Open Sans', sans-serif;
+}
+
+.menuicon{
+
+    display: none;
+  
+    text-decoration:none;
+
 }
 
 
@@ -47,6 +63,10 @@ margin-right:0px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 
+}
+
+.contenedor ul li a:hover{
+    color:orange;
 }
 
 .nombre-nav{
@@ -150,6 +170,7 @@ font-size:32px;
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+	margin-bottom:20px;
 
 }
 
@@ -174,6 +195,7 @@ font-size:32px;
 	background-color:#18BC9C;
 	color:white;
 	margin-top:102px;
+	padding-bottom:80px;
 }
 
 .tittle{
@@ -195,6 +217,7 @@ color:white;
 .p1{
 	width:49%;
 	display:flex;
+	margin-right: 12px;
 
 }
 .p2{
@@ -213,4 +236,235 @@ color:white;
 	line-height:1.5;
 
 }
+
+.btn-download{
+	color:white;
+	border: 1px solid white;
+	text-decoration:none;
+	border-radius:5px;
+	font-family:'Montserrat';
+	padding:10px;
+}
+
+.btn-download a{
+	color:white;
+	text-decoration:none;
+}
+
+.style-form{
+	display: flex;
+	flex-direction:column;
+	max-width: 43rem;
+	justify-content:center;
+}
+
+.formulario{
+	display:flex;
+	justify-content:center;
+	margin:auto;
+    margin-bottom:10%;
+
+}
+
+	.input{
+	width: 43rem;
+    margin: auto;
+    padding: 12px 10px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #EEEEEE;
+    border-right: white;
+    border-left: white;
+    font-size:13px;
+ 
+    }
+
+    .textarea{
+    height: 150px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #EEEEEE;
+    border-right: white;
+    border-left: white;
+    padding: 12px;
+    font-size:13px;
+    	}
+
+    	.boton{
+    background-color: #18BC9C;
+    width: 47px;
+    height: 32px;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid white;
+    font-size: 12px;
+	}
+
+	
+
+	.contfoot{
+	display: flex;
+    background-color: #2C3E50;
+    height: 37%;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin: auto;
+	}
+
+	.foot1 h3{
+		 font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom:20px;
+
+	}
+
+	.foot2{
+		    color: white;
+   	 font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin: auto;
+
+
+	}
+
+		.foot2 h3{
+			 font-weight: 600;
+    		font-size: 20px;
+    		text-transform: uppercase;
+    		margin-bottom:20px;
+
+	}
+
+	.foot3{
+		    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin: auto;
+	}
+
+	.foot3 h3{
+		 font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom:20px;
+
+	}
+
+	.redes{
+display:flex;
+flex-direction:row;
+	}
+
+.iconoredes{
+	    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 9px;
+    margin-right:15px;
+	}
+
+    .startb{
+        text-decoration:none;
+        color:#18BD9D;
+    }
+
+    .final{
+           background-color: #233140;
+    /* padding-bottom: 24px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 7%;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+
+    }
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 414px) {
+    
+   .contenedor{
+    max-width:100%;
+    background-color:#2C3E50;
+    display:flex;
+    justify-content:space-around;
+    margin: auto;
+    height: 72px;
+    align-items:center;
+
+} 
+
+
+.menuicon{
+   text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: -12px; */
+    color: white;
+    size: 20px;
+    /* height: 40px; */
+    width: 18%;
+    border-radius: 7px;
+    padding: 8px;
+    flex-direction: row-reverse;
+    text-transform: uppercase;
+    font-size: 10px;
+    border: 1px white solid;
+    float:right;
+    margin-right:7px;
+
+}
+
+.nombre-nav{
+    text-transform:uppercase;
+    color:white;
+    font-weight:700;
+    letter-spacing: 2px;
+    font-size:21px;
+    }
+
+.menutext{
+     font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:10px;
+    margin-right:2px;
+}
+
+nav ul{
+    overflow:hidden;
+    background: #505050;
+   /* height:0; */
+}
+
+nav ul li{
+    float:none;
+}
+
+nav ul.open{
+    height:auto;
+
+}
+
+
+
+
+
+
 
